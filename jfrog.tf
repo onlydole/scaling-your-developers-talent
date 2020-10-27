@@ -1,5 +1,5 @@
 provider "artifactory" {
-  url = "https://${var.jfrog_endpoint}/artifactory"
+  url = "${var.jfrog_endpoint}/artifactory"
 }
 
 resource "artifactory_group" "operators" {
