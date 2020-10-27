@@ -20,11 +20,15 @@ A webinar with JFrog that showcases how to use Terraform to manage your cloud ar
 
 ## Prerequisites
 
-As part of this workshop, you will be using [HashiCorp Terraform](https://www.terraform.io) and [JFrog Services](https://jfrog.com/artifactory/).
+As part of this workshop, you will be using [HashiCorp Terraform](https://www.terraform.io), [HashiCorp Packer](https://www.packer.io/), and [JFrog Services](https://jfrog.com/artifactory/).
 
-For instructions on how to install Terraform. please see our [Learn Guide](https://learn.hashicorp.com/terraform/getting-started/install.html).
+For instructions on how to install Terraform, please see our [Learn Guide](https://learn.hashicorp.com/terraform/getting-started/install.html).
+
+For instructions on how to install Packer, please see our [Learn Guide](https://learn.hashicorp.com/tutorials/packer/getting-started-install).
 
 On that page, you will find instructions for macOS (using `brew`), Windows (using `choco`) as well as a manual installation path.
+
+You will need to create a copy of the `beacon.pkrvars.example` file and name it `beacon.pkrvars.hcl` with credentials specific to your accounts.
 
 ## Reading material
 
@@ -46,6 +50,11 @@ This section is a collection of links that will help you make the most of today'
 
 - Learn Guide: Build infrastructure [learn.hashicorp.com/terraform/getting-started/build](https://learn.hashicorp.com/terraform/getting-started/build)
 - Build your own AMIs with Packer: [packer.io/docs/builders/amazon/](https://www.packer.io/docs/builders/amazon/)
+- To build the Packer images after you have set up your JFrog Artifactory instance with Terraform, you can run the following command to build and upload a container image to your registry.
+
+```hcl
+packer build -var-file="beacon.pkrvars.hcl" beacon.pkr.hcl
+```
 
 ### Code Quality
 
