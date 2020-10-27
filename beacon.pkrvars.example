@@ -1,0 +1,4 @@
+beacon_tags    = ["1.0"]
+jfrog_server   = "youraccount.jfrog.io"
+jfrog_username = "youremail@yourdomain.com"
+jfrog_password = "what-is-the-secret?"
