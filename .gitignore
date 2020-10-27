@@ -14,3 +14,7 @@ override.tf
 override.tf.json
 *_override.tf
 *_override
+
+# Packer variables
+*.pkrvars.hcl
+*auto.pkrvars.hcl
