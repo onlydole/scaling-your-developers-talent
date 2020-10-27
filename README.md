@@ -20,7 +20,7 @@ A webinar with JFrog that showcases how to use Terraform to manage your cloud ar
 
 ## Prerequisites
 
-As part of this workshop, you will be using [HashiCorp Terraform](https://www.terraform.io) and [Amazon Web Services](https://aws.amazon.com).
+As part of this workshop, you will be using [HashiCorp Terraform](https://www.terraform.io) and [JFrog Services](https://jfrog.com/artifactory/).
 
 For instructions on how to install Terraform. please see our [Learn Guide](https://learn.hashicorp.com/terraform/getting-started/install.html).
 
