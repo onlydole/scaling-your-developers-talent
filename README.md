@@ -65,7 +65,7 @@ Before `plan` and `apply`, always clean up your code:
 
 ## Author Information
 
-This repository is maintained by [Taylor Dolezal](https://github.com/onlydole) .
+This repository is maintained by [Taylor Dolezal](https://github.com/onlydole).
 
 ## License
 
